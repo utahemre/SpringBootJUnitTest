@@ -67,7 +67,7 @@ public class FeatureBusinessTest {
         features.add(aFeature);
         Feature aFeature2 = new Feature();
         features.add(aFeature2);
-        Assert.assertEquals(31, aFeatureBusiness.calculateTotalAttrbiuteCount(features));
+        Assert.assertEquals(30, aFeatureBusiness.calculateTotalAttrbiuteCount(features));
     }
     
 }
