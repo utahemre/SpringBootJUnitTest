@@ -13,6 +13,9 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 
 /**
  *
@@ -33,18 +36,13 @@ public class FeatureServiceImplTest {
 
     @Before
     public void setUp() {
-        //MockitoAnnotations.initMocks(this);
     }
 
     @After
     public void tearDown() {
     }
 
-    /*@InjectMocks
-    FeatureServiceImpl aFeatureServiceImpl = new FeatureServiceImpl();
-
-    @Autowired
-    FeatureService aFeatureService;*/
+    
     /**
      * Test of addNewFeature method, of class FeatureServiceImpl.
      */
